@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Blind___Low_Vision_NZ.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
