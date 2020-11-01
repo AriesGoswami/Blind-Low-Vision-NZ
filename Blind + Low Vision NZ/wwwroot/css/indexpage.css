@@ -1,18 +1,15 @@
-﻿html {
+﻿/* W3.CSS 4.13 June 2019 by Jan Egil and Borge Refsnes */
+html {
     box-sizing: border-box
 }
 
 *, *:before, *:after {
     box-sizing: inherit
 }
-
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
-}
-
-body {
-    background-color: #ff8000;
 }
 
 body {
@@ -178,7 +175,7 @@ textarea {
     -webkit-appearance: button;
     font: inherit
 }
-
+/* End extract */
 html, body {
     font-family: Verdana,sans-serif;
     font-size: 15px;
