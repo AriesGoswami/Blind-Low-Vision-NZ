@@ -44,11 +44,6 @@ namespace Blind___Low_Vision_NZ.Controllers
             return View();
         }
 
-        public IActionResult Notices()
-        {
-            return View();
-        }
-
         public IActionResult DonationSuccessful()
         {
             return View();
